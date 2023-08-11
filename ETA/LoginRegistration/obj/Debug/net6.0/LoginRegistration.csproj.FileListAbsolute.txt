@@ -71,3 +71,4 @@ D:\dotnet training\AdvDay-9\EventTrackerApplication\LoginRegistration\obj\Debug\
 D:\dotnet training\AdvDay-9\EventTrackerApplication\LoginRegistration\obj\Debug\net6.0\LoginRegistration.pdb
 D:\dotnet training\AdvDay-9\EventTrackerApplication\LoginRegistration\obj\Debug\net6.0\LoginRegistration.genruntimeconfig.cache
 D:\dotnet training\AdvDay-9\EventTrackerApplication\LoginRegistration\obj\Debug\net6.0\ref\LoginRegistration.dll
+D:\dotnet training\AdvDay-9\EventTrackerApplication\LoginRegistration\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

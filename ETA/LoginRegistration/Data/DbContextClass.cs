@@ -15,7 +15,9 @@ namespace LoginRegistration.Data
         {
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
         }
-
+        //public DbContextClass(DbContextOptions<DbContextClass> options) : base(options)
+        //{
+        //}
         public DbSet<Registration> Registration { get; set; }
     }
 }

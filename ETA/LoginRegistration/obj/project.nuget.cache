@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vnVwF1BEpx3IbioQiMbTRvvJlQqLHjcmBBCfgf1+vBCRRoqiPSUJkaICmhk/+wxFj/LrHGp8/pRt3qboeMZ11Q==",
+  "dgSpecHash": "2hYFJ1Mso0ENV1yIrgLGEFxx7jncz1Ay2hvAUfX6mQ/SsgMMUrFwC2UyoZLqQavb5Q058bJTGOCYoZYQc0EI6A==",
   "success": true,
   "projectFilePath": "D:\\dotnet training\\AdvDay-9\\EventTrackerApplication\\LoginRegistration\\LoginRegistration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

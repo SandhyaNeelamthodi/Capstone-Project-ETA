@@ -1,19 +1,43 @@
 ﻿using LoginRegistration.Models;
+using LoginRegistration.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace LoginRegistration.Controllers
 {
-    [Route("api/[controller]")]
+    [Authorize]
+    [Route("api/[Controller]")]
     [ApiController]
     public class RegistrationController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-        public RegistrationController(IConfiguration configuration)
+        public readonly DbContextClass RegContextClass;
+
+        public RegistrationController(IConfiguration configuration, DbContextClass _db)
         {
             _configuration = configuration;
+            RegContextClass = _db;
+        }
+        
+
+        /*public RegistrationController()
+
+        {
+
+            
+
+        }*/
+        [HttpGet]
+
+        public async Task<ActionResult> GetAdminUsers()
+
+        {
+
+            return Ok(await RegContextClass.Registration.ToListAsync());
         }
         [HttpPost]
         [Route("registration")]
@@ -49,7 +73,7 @@ namespace LoginRegistration.Controllers
             }
             else 
             { 
-                return "Invalid Data"; 
+                return "Error:Invalid Data"; 
             }
 
         }
